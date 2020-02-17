@@ -1,7 +1,7 @@
 # Question-Generation-Paper-List
 A summary of must-read papers for Neural Question Generation (NQG)
 
-- Contributed by **Liangming Pan** and **Yuxi Xie**.
+- Contributed by **[Liangming Pan](http://www.liangmingpan.com)** and **[Yuxi Xie](https://yuxixie.github.io/)**.
 
 ## [Content](#content)
 
@@ -128,6 +128,10 @@ Improving the training via combining supervised and reinforcement learning to ma
    
    *Vishwajeet Kumar, Ganesh Ramakrishnan, Yuan-Fang Li*
 
+5. **Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering** EMNLP, 2019. [paper](https://arxiv.org/pdf/1909.06356.pdf) [code](https://github.com/ZhangShiyue/QGforQA)
+   
+   *Shiyue Zhang, Mohit Bansal*
+
 ### [Content Selection](#content-selection)
 
 Improve QG by considering how to select question-worthy contents (content selection) before asking a question. 
@@ -155,6 +159,10 @@ Improve QG by considering how to select question-worthy contents (content select
 6. **A Multi-Agent Communication Framework for Question-Worthy Phrase Extraction and Question Generation.** AAAI, 2019. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4700/4578)
    
    *Siyuan Wang, Zhongyu Wei, Zhihao Fan, Yang Liu, Xuanjing Huang*
+
+7. **Mixture Content Selection for Diverse Sequence Generation.** EMNLP, 2019. [paper](https://arxiv.org/pdf/1909.01953.pdf) [code](https://github.com/clovaai/FocusSeq2Seq)
+   
+   *Jaemin Cho, Minjoon Seo, Hannaneh Hajishirzi*
 
 ### [Question Type Modeling](#question-type-modeling)
 
@@ -218,6 +226,10 @@ Improve QG by incorporating wider contexts in the input passage.
    
    *Qingyu Zhou, Nan Yang, Furu Wei, Ming Zhou*
 
+6. **Let's Ask Again: Refine Network for Automatic Question Generation.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1326.pdf)
+   
+   *Preksha Nema, Akash Kumar Mohankumar, Mitesh M. Khapra, Balaji Vasan Srinivasan, Balaraman Ravindran*
+
 ## [Applications](#applications)
 
 ### [Difficulty Controllable QG](#difficulty-controllable-QG)
@@ -255,6 +267,10 @@ Learning to generate a series of coherent questions grounded in a question answe
 4. **Towards Answer-unaware Conversational Question Generation.** ACL Workshop, 2019. [paper](https://www.aclweb.org/anthology/D19-5809.pdf)
    
    *Mao Nakanishi, Tetsunori Kobayashi, Yoshihiko Hayashi*
+
+5. **What Should I Ask? Using Conversationally Informative Rewards for Goal-oriented Visual Dialog.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1646.pdf)
+   
+   *Pushkar Shukla, Carlos Elmadjian, Richika Sharan, Vivek Kulkarni, Matthew Turk, William Yang Wang*
 
 ### [Asking special questions](#asking-special-questions)
 
@@ -335,6 +351,14 @@ This direction investigate how to combine the task of QA and QG by multi-task le
 5. **Triple-Joint Modeling for Question Generation Using Cross-Task Autoencoder.** NLPCC, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-32236-6_26)
    
    *Hongling Wang, Renshou Wu, Zhixu Li, Zhongqing Wang, Zhigang Chen, Guodong Zhou*
+
+6. **Addressing Semantic Drift in Question Generation for Semi-Supervised Question Answering** EMNLP, 2019. [paper](https://arxiv.org/pdf/1909.06356.pdf) [code](https://github.com/ZhangShiyue/QGforQA)
+   
+   *Shiyue Zhang, Mohit Bansal*
+
+7. **Synthetic QA Corpora Generation with Roundtrip Consistency** ACL, 2019. [paper](https://arxiv.org/pdf/1906.05416.pdf)
+   
+   *Chris Alberti, Daniel Andor, Emily Pitler, Jacob Devlin, Michael Collins*
 
 
 ### [QG from knowledge graphs](#QG-from-knowledge-graphs)
@@ -418,6 +442,10 @@ Asking questions based on visual inputs (usually an image).
 
    *Ranjay Krishna, Michael Bernstein, Li Fei-Fei*
 
+10. **What Should I Ask? Using Conversationally Informative Rewards for Goal-oriented Visual Dialog.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1646.pdf)
+   
+   *Pushkar Shukla, Carlos Elmadjian, Richika Sharan, Vivek Kulkarni, Matthew Turk, William Yang Wang*
+
 ### [Distractor Generation](#distractor-generation)
 
 Learning to generate distractors for multi-choice questions. 
@@ -446,11 +474,7 @@ This direction investigates the mechanism behind question asking, and how to eva
    
    *Preksha Nema, Mitesh M. Khapra.*
 
-3. **LearningQ: A Large-Scale Dataset for Educational Question Generation.** ICWSM, 2018. [paper](https://yangjiera.github.io/works/icwsm2018.pdf)
-   
-   *Guanliang Chen, Jie Yang, Claudia Hauff, Geert-Jan Houben.*
-
-4. **Evaluating Rewards for Question Generation Models.** NAACL, 2019. [paper](https://arxiv.org/pdf/1902.11049.pdf)
+3. **Evaluating Rewards for Question Generation Models.** NAACL, 2019. [paper](https://arxiv.org/pdf/1902.11049.pdf)
    
    *Tom Hosking and Sebastian Riedel.*
 
@@ -458,11 +482,15 @@ This direction investigates the mechanism behind question asking, and how to eva
 
 QG-specific datasets and toolkits. 
 
-1. **ParaQG: A System for Generating Questions and Answers from Paragraphs.** EMNLP Demo, 2019. [paper](https://arxiv.org/pdf/1909.01642.pdf)
+1. **LearningQ: A Large-Scale Dataset for Educational Question Generation.** ICWSM, 2018. [paper](https://yangjiera.github.io/works/icwsm2018.pdf)
+   
+   *Guanliang Chen, Jie Yang, Claudia Hauff, Geert-Jan Houben.*
+
+2. **ParaQG: A System for Generating Questions and Answers from Paragraphs.** EMNLP Demo, 2019. [paper](https://arxiv.org/pdf/1909.01642.pdf)
    
    *Vishwajeet Kumar, Sivaanandh Muneeswaran, Ganesh Ramakrishnan, Yuan-Fang Li.*
 
-2. **How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions.** AAAI, 2020. [paper](https://arxiv.org/pdf/1911.09247.pdf) [code](https://github.com/ZeweiChu/MQR)
+3. **How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions.** AAAI, 2020. [paper](https://arxiv.org/pdf/1911.09247.pdf) [code](https://github.com/ZeweiChu/MQR)
    
    *Zewei Chu, Mingda Chen, Jing Chen, Miaosen Wang, Kevin Gimpel, Manaal Faruqui, Xiance Si.*
 
