@@ -3,6 +3,8 @@ A summary of must-read papers for Neural Question Generation (NQG)
 
 - Contributed by **[Liangming Pan](http://www.liangmingpan.com)** and **[Yuxi Xie](https://yuxixie.github.io/)**.
 
+Please follow [this link](./README_by_year.md) to view papers in chronological order. 
+
 ## [Content](#content)
 
 <table>
@@ -30,20 +32,16 @@ A summary of must-read papers for Neural Question Generation (NQG)
     <td>&ensp;<a href="#conversational-QG">2.2 Conversational QG</a></td>
 </tr> 
 <tr>
-    <td>&emsp;<a href="#asking-special-questions">2.3 Asking special questions</a></td>
-    <td>&ensp;<a href="#answer-unaware-QG">2.4 Answer-unaware QG</a></td>
+    <td>&emsp;<a href="#asking-deep-questions">2.3 Asking Deep Questions</a></td>
+    <td>&ensp;<a href="#combining-QA-and-QG">2.4 Combining QA and QG</a></td>
 </tr>
 <tr>
-    <td>&emsp;<a href="#unanswerable-QG">2.5 Unanswerable QG</a></td>
-    <td>&ensp;<a href="#combining-QA-and-QG">2.6 Combining QA and QG</a></td>
-</tr>
-<tr>
-    <td>&emsp;<a href="#QG-from-knowledge-graphs">2.7 QG from knowledge graphs</a></td>
-    <td>&ensp;<a href="#visual-question-generation">2.8 Visual Question Generation</a></td>
+    <td>&emsp;<a href="#QG-from-knowledge-graphs">2.5 QG from knowledge graphs</a></td>
+    <td>&ensp;<a href="#visual-question-generation">2.6 Visual Question Generation</a></td>
 </tr> 
 <tr>
-    <td>&emsp;<a href="#distractor-generation">2.9 Distractor Generation</a></td>
-    <td>&ensp;<a href="#cross-lingual-QG">2.10 Cross-lingual QG</a></td>
+    <td>&emsp;<a href="#distractor-generation">2.7 Distractor Generation</a></td>
+    <td>&ensp;<a href="#cross-lingual-QG">2.8 Cross-lingual QG</a></td>
 </tr>
 <tr><td colspan="2"><a href="#evaluation">3. Evaluation</a></td></tr>
 <tr><td colspan="2"><a href="#resources">4. Resources</a></td></tr>
@@ -108,6 +106,10 @@ Improve QG by incorporating various linguistic features into the QG process.
    
    *Deepak Gupta, Kaheer Suleman, Mahmoud Adada, Andrew McNamara, Justin Harris*
 
+5. **Syn-QG: Syntactic and Shallow Semantic Rules for Question Generation.** ACL, 2020. [paper](https://arxiv.org/pdf/2004.08694.pdf)
+   
+   *Kaustubh D. Dhole, Christopher D. Manning*
+
 ### [Question-specific Rewards](#RL-rewards)
 
 Improving the training via combining supervised and reinforcement learning to maximize question-specific rewards
@@ -140,35 +142,41 @@ Improve QG by considering how to select question-worthy contents (content select
    
    *Xinya Du, Claire Cardie*
 
+2. **Neural Models for Key Phrase Extraction and Question Generation.** ACL Workshop, 2018. [paper](https://www.aclweb.org/anthology/W18-2609.pdf)
+   
+   *Sandeep Subramanian, Tong Wang, Xingdi Yuan, Saizheng Zhang, Adam Trischler, Yoshua Bengio*
 
-2. **A Comparative Study on Question-Worthy Sentence Selection Strategies for Educational Question Generation.** AIED, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-23204-7_6)
+3. **A Comparative Study on Question-Worthy Sentence Selection Strategies for Educational Question Generation.** AIED, 2019. [paper](https://link.springer.com/chapter/10.1007/978-3-030-23204-7_6)
    
    *Guanliang Chen, Jie Yang, Dragan Gasevic*
 
-
-3. **Learning to Generate Questions by Learning What not to Generate.** WWW, 2019. [paper](https://arxiv.org/pdf/1902.10418.pdf) [code](https://github.com/BangLiu/QG)
+4. **Learning to Generate Questions by Learning What not to Generate.** WWW, 2019. [paper](https://arxiv.org/pdf/1902.10418.pdf) [code](https://github.com/BangLiu/QG)
 
     *Bang Liu, Mingjun Zhao, Di Niu, Kunfeng Lai, Yancheng He, Haojie Wei, Yu Xu.*
 
-4. **Improving Question Generation With to the Point Context.** EMNLP, 2019. [paper](https://arxiv.org/pdf/1910.06036.pdf)
+5. **Improving Question Generation With to the Point Context.** EMNLP, 2019. [paper](https://arxiv.org/pdf/1910.06036.pdf)
 
     *Jingjing Li, Yifan Gao, Lidong Bing, Irwin King, Michael R. Lyu.*
 
-5. **Weak Supervision Enhanced Generative Network for Question Generation.** IJCAI, 2019. [paper](https://arxiv.org/pdf/1907.00607v1)
+6. **Weak Supervision Enhanced Generative Network for Question Generation.** IJCAI, 2019. [paper](https://arxiv.org/pdf/1907.00607v1)
    
    *Yutong Wang, Jiyuan Zheng, Qijiong Liu, Zhou Zhao, Jun Xiao, Yueting Zhuang*
 
-6. **A Multi-Agent Communication Framework for Question-Worthy Phrase Extraction and Question Generation.** AAAI, 2019. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4700/4578)
+7. **A Multi-Agent Communication Framework for Question-Worthy Phrase Extraction and Question Generation.** AAAI, 2019. [paper](https://www.aaai.org/ojs/index.php/AAAI/article/view/4700/4578)
    
    *Siyuan Wang, Zhongyu Wei, Zhihao Fan, Yang Liu, Xuanjing Huang*
 
-7. **Mixture Content Selection for Diverse Sequence Generation.** EMNLP, 2019. [paper](https://arxiv.org/pdf/1909.01953.pdf) [code](https://github.com/clovaai/FocusSeq2Seq)
+8. **Self-Attention Architectures for Answer-Agnostic Neural Question Generation.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1604.pdf)
+   
+   *Thomas Scialom, Benjamin Piwowarski, Jacopo Staiano.*
+
+9. **Mixture Content Selection for Diverse Sequence Generation.** EMNLP, 2019. [paper](https://arxiv.org/pdf/1909.01953.pdf) [code](https://github.com/clovaai/FocusSeq2Seq)
    
    *Jaemin Cho, Minjoon Seo, Hannaneh Hajishirzi*
 
-8. **Asking Questions the Human Way: Scalable Question-Answer Generation from Text Corpus.** WWW, 2020. [paper](https://arxiv.org/pdf/2002.00748.pdf)
-   
-   *Bang Liu, Haojie Wei, Di Niu, Haolan Chen, Yancheng He*
+10. **Asking Questions the Human Way: Scalable Question-Answer Generation from Text Corpus.** WWW, 2020. [paper](https://arxiv.org/pdf/2002.00748.pdf
+    
+    *Bang Liu, Haojie Wei, Di Niu, Haolan Chen, Yancheng He*
 
 ### [Question Type Modeling](#question-type-modeling)
 
@@ -210,25 +218,33 @@ Improve QG by incorporating wider contexts in the input passage.
    
    *Luu Anh Tuan, Darsh J Shah, Regina Barzilay*
 
+5. **How to Ask Good Questions? Try to Leverage Paraphrases** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.545.pdf)
+   
+   *Xin Jia, Wenjie Zhou, Xu SUN, Yunfang Wu*
+
 ### [Other Directions](#other-model)
 
-1. **Generating Question-Answer Hierarchies.** ACL, 2019. [paper](https://arxiv.org/pdf/1906.02622.pdf) [code](http://squash.cs.umass.edu/)
+1. **QURIOUS: Question Generation Pretraining for Text Generation.** arXiv, 2020. [paper](https://arxiv.org/pdf/2004.11026.pdf)
+   
+   *Shashi Narayan, Gonçalo Simoes, Ji Ma, Hannah Craighead, Ryan Mcdonald*
+
+2. **Generating Question-Answer Hierarchies.** ACL, 2019. [paper](https://arxiv.org/pdf/1906.02622.pdf) [code](http://squash.cs.umass.edu/)
    
    *Kalpesh Krishna and Mohit Iyyer.*
 
-2. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** NeurIPS, 2019. [paper](https://arxiv.org/pdf/1905.03197.pdf) [code](https://github.com/microsoft/unilm)
+3. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** NeurIPS, 2019. [paper](https://arxiv.org/pdf/1905.03197.pdf) [code](https://github.com/microsoft/unilm)
    
    *Li Dong, Nan Yang, Wenhui Wang, Furu Wei, Xiaodong Liu, Yu Wang, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon*
 
-3. **Can You Unpack That? Learning to Rewrite Questions-in-Context.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1605.pdf)
+4. **Can You Unpack That? Learning to Rewrite Questions-in-Context.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1605.pdf)
    
    *Ahmed Elgohary, Denis Peskov, Jordan L. Boyd-Graber*
 
-4. **Sequential Copying Networks.** AAAI, 2018. [paper](https://arxiv.org/pdf/1807.02301.pdf)
+5. **Sequential Copying Networks.** AAAI, 2018. [paper](https://arxiv.org/pdf/1807.02301.pdf)
    
    *Qingyu Zhou, Nan Yang, Furu Wei, Ming Zhou*
 
-5. **Let's Ask Again: Refine Network for Automatic Question Generation.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1326.pdf)
+6. **Let's Ask Again: Refine Network for Automatic Question Generation.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1326.pdf)
    
    *Preksha Nema, Akash Kumar Mohankumar, Mitesh M. Khapra, Balaji Vasan Srinivasan, Balaraman Ravindran*
 
@@ -282,9 +298,21 @@ Learning to generate a series of coherent questions grounded in a question answe
    
    *Wei Pang, Xiaojie Wang*
 
-### [Asking special questions](#asking-special-questions)
+7. **Interactive Classification by Asking Informative Questions.** ACL, 2020. [paper](https://arxiv.org/pdf/1911.03598.pdf)
+   
+   *Lili Yu, Howard Chen, Sida Wang, Tao Lei, Yoav Artzi*
 
-This direction focuses on exploring how to ask special types of questions, such as mathematical questions, open-ended questions, non-factoid questions, and clarification questions. 
+7. **Learning to Ask More: Semi-Autoregressive Sequential Question Generation under Dual-Graph Interaction.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.21.pdf) [dataset](https://github.com/ChaiZ-pku/Sequential-QG)
+   
+   *Zi Chai, Xiaojun Wan*
+
+8. **Stay Hungry, Stay Focused: Generating Informative and Specific Questions in Information-Seeking Conversations.** arXiv, 2020. [paper](https://arxiv.org/pdf/2004.14530.pdf)
+   
+   *Peng Qi, Yuhao Zhang, Christopher D. Manning*
+
+### [Asking Deep Questions](#asking-deep-questions)
+
+This direction focuses on exploring how to ask deep questions that require high cognitive levels, such as multi-hop reasoning questions, mathematical questions, open-ended questions, non-factoid questions, and clarification questions. 
 
 1. **Are You Asking the Right Questions? Teaching Machines to Ask Clarification Questions.** ACL Workshop, 2017. [paper](https://www.aclweb.org/anthology/P17-3006.pdf)
    
@@ -302,45 +330,42 @@ This direction focuses on exploring how to ask special types of questions, such 
    
    *Marzieh Saeidi, Max Bartolo, Patrick Lewis, Sameer Singh, Tim Rocktäschel, Mike Sheldon, Guillaume Bouchard, Sebastian Riedel*
 
-5. **Asking the Crowd: Question Analysis, Evaluation and Generation for Open Discussion on Online Forums.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1497.pdf)
+5. **Answer-based Adversarial Training for Generating Clarification Questions.** NAACL, 2019. [paper](https://arxiv.org/pdf/1904.02281.pdf) [code](https://github.com/raosudha89/clarification_question_generation_pytorch)
+   
+   *Rao S, Daumé III H.*
+
+6. **Asking the Crowd: Question Analysis, Evaluation and Generation for Open Discussion on Online Forums.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1497.pdf)
    
    *Zi Chai, Xinyu Xing, Xiaojun Wan, Bo Huang*
 
-6. **Conclusion-Supplement Answer Generation for Non-Factoid Questions.** AAAI, 2020. [paper](https://arxiv.org/pdf/1912.00864.pdf)
+7. **Learning to Ask Unanswerable Questions for Machine Reading Comprehension.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1415.pdf)
    
-   *Makoto Nakatsuji, Sohei Okui*
-
-7. **Answer-based Adversarial Training for Generating Clarification Questions.** NAACL, 2019. [paper](https://arxiv.org/pdf/1904.02281.pdf) [code](https://github.com/raosudha89/clarification_question_generation_pytorch)
-   
-   *Rao S, Daumé III H.*
+   *Haichao Zhu, Li Dong, Furu Wei, Wenhui Wang, Bing Qin, Ting Liu*
 
 8. **Distant Supervised Why-Question Generation with Passage Self-Matching Attention.** IJCNN, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8851781)
    
    *Jiaxin Hu, Zhixu Li, Renshou Wu, Hongling Wang, An Liu, Jiajie Xu, Pengpeng Zhao, Lei Zhao*
 
-### [Answer-unaware QG](#answer-unaware-QG)
-
-In answer-unaware QG, the model does not require the target answer as an input to serve as the focus of asking. Therefore, the model should automatically identify question-worthy parts within the passage to ask. 
-
-1. **Learning to ask: Neural question generation for reading comprehension.** ACL, 2017. [paper](https://www.aclweb.org/anthology/P17-1123.pdf)
-
-    *Xinya Du, Junru Shao, Claire Cardie.*
-
-2. **Neural Models for Key Phrase Extraction and Question Generation.** ACL Workshop, 2018. [paper](https://www.aclweb.org/anthology/W18-2609.pdf)
+9. **Conclusion-Supplement Answer Generation for Non-Factoid Questions.** AAAI, 2020. [paper](https://arxiv.org/pdf/1912.00864.pdf)
    
-   *Sandeep Subramanian, Tong Wang, Xingdi Yuan, Saizheng Zhang, Adam Trischler, Yoshua Bengio*
+   *Makoto Nakatsuji, Sohei Okui*
 
-3. **Self-Attention Architectures for Answer-Agnostic Neural Question Generation.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1604.pdf)
+9. **Generating Multi-hop Reasoning Questions to Improve Machine Reading Comprehension.** WWW, 2020. [paper](https://dl.acm.org/doi/pdf/10.1145/3366423.3380114)
    
-   *Thomas Scialom, Benjamin Piwowarski, Jacopo Staiano.*
+   *Jianxing Yu, Xiaojun Quan, Qinliang Su, Jian Yin*
 
-### [Unanswerable QG](#unanswerable-QG)
+10. **Low-Resource Generation of Multi-hop Reasoning Questions.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.601.pdf)
+    
+    *Jianxing Yu, Wei Liu, Shuang Qiu, Qinliang Su, Kai Wang, Xiaojun Quan, Jian Yin*
 
-Learning to generate questions that cannot be answered by the input passage. 
+11. **Semantic Graphs for Generating Deep Questions.** ACL, 2020. [paper](https://arxiv.org/pdf/2004.12704.pdf) [code](https://github.com/YuxiXie/SG-Deep-Question-Generation)
+    
+    *Liangming Pan, Yuxi Xie, Yansong Feng, Tat-Seng Chua, Min-Yen Kan*
 
-1. **Learning to Ask Unanswerable Questions for Machine Reading Comprehension.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1415.pdf)
-   
-   *Haichao Zhu, Li Dong, Furu Wei, Wenhui Wang, Bing Qin, Ting Liu*
+12. **Review-based Question Generation with Adaptive Instance Transfer and Augmentation.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.26.pdf)
+    
+    *Qian Yu, Lidong Bing, Qiong Zhang, Wai Lam, Luo Si*
+
 
 ### [Combining QA and QG](#Combining-QA-and-QG)
 
@@ -374,6 +399,17 @@ This direction investigate how to combine the task of QA and QG by multi-task le
    
    *Chris Alberti, Daniel Andor, Emily Pitler, Jacob Devlin, Michael Collins*
 
+9. **Generating Multi-hop Reasoning Questions to Improve Machine Reading Comprehension.** WWW, 2020. [paper](https://dl.acm.org/doi/pdf/10.1145/3366423.3380114)
+   
+   *Jianxing Yu, Xiaojun Quan, Qinliang Su, Jian Yin*
+
+9. **Template-Based Question Generation from Retrieved Sentences for Improved Unsupervised Question Answering.** ACL, 2020. [paper](https://arxiv.org/pdf/2004.11892.pdf)
+   
+   *Alexander R. Fabbri, Patrick Ng, Zhiguo Wang, Ramesh Nallapati, Bing Xiang*
+
+9. **On the Importance of Diversity in Question Generation for QA.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.500.pdf)
+   
+   *Md Arafat Sultan, Shubham Chandel, Ramón Fernandez Astudillo, Vittorio Castelli*
 
 ### [QG from knowledge graphs](#QG-from-knowledge-graphs)
 
@@ -457,12 +493,12 @@ Asking questions based on visual inputs (usually an image).
    *Unnat Jain, Svetlana Lazebnik, Alexander Schwing*
 
 10. **Information Maximizing Visual Question Generation.** CVPR, 2019. [paper](https://arxiv.org/pdf/1903.11207.pdf)
-
-   *Ranjay Krishna, Michael Bernstein, Li Fei-Fei*
+    
+    *Ranjay Krishna, Michael Bernstein, Li Fei-Fei*
 
 11. **What Should I Ask? Using Conversationally Informative Rewards for Goal-oriented Visual Dialog.** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1646.pdf)
-   
-   *Pushkar Shukla, Carlos Elmadjian, Richika Sharan, Vivek Kulkarni, Matthew Turk, William Yang Wang*
+    
+    *Pushkar Shukla, Carlos Elmadjian, Richika Sharan, Vivek Kulkarni, Matthew Turk, William Yang Wang*
 
 ### [Distractor Generation](#distractor-generation)
 
@@ -524,6 +560,10 @@ QG-specific datasets and toolkits.
 3. **How to Ask Better Questions? A Large-Scale Multi-Domain Dataset for Rewriting Ill-Formed Questions.** AAAI, 2020. [paper](https://arxiv.org/pdf/1911.09247.pdf) [code](https://github.com/ZeweiChu/MQR)
    
    *Zewei Chu, Mingda Chen, Jing Chen, Miaosen Wang, Kevin Gimpel, Manaal Faruqui, Xiance Si.*
+
+3. **ClarQ: A large-scale and diverse dataset for Clarification Question Generation.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.651.pdf) [dataset](https://github.com/vaibhav4595/ClarQ)
+   
+   *Vaibhav Kumar, Alan W. black.*
 
 
 
