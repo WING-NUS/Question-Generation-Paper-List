@@ -31,7 +31,7 @@ Please follow [this link](./README.md) to view papers by topics.
    
    *Makoto Nakatsuji, Sohei Okui*
 
-5. **Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation** ICLR, 2020. [paper](https://arxiv.org/pdf/1908.04942.pdf)
+5. **Reinforcement Learning Based Graph-to-Sequence Model for Natural Question Generation** ICLR, 2020. [paper](https://arxiv.org/pdf/1908.04942.pdf) [codes](https://github.com/hugochan/RL-based-Graph2Seq-for-NQG)
    
    *Yu Chen, Lingfei Wu, Mohammed J. Zaki*
 
@@ -75,13 +75,45 @@ Please follow [this link](./README.md) to view papers by topics.
     
     *Qian Yu, Lidong Bing, Qiong Zhang, Wai Lam, Luo Si*
 
-12. **ClarQ: A large-scale and diverse dataset for Clarification Question Generation.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.651.pdf) [dataset](https://github.com/vaibhav4595/ClarQ
+12. **ClarQ: A large-scale and diverse dataset for Clarification Question Generation.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.651.pdf) [dataset](https://github.com/vaibhav4595/ClarQ)
     
     *Vaibhav Kumar, Alan W. black.*
 
 13. **On the Importance of Diversity in Question Generation for QA.** ACL, 2020. [paper](https://www.aclweb.org/anthology/2020.acl-main.500.pdf)
     
     *Md Arafat Sultan, Shubham Chandel, Ramón Fernandez Astudillo, Vittorio Castelli*
+
+2. **Interactive Classification by Asking Informative Questions.** ACL, 2020. [paper](https://arxiv.org/pdf/1911.03598.pdf)
+   
+   *Lili Yu, Howard Chen, Sida Wang, Tao Lei, Yoav Artzi*
+
+2. **Towards Question-based Recommender Systems.** SIGIR, 2020. [paper](https://arxiv.org/pdf/2005.14255.pdf)
+   
+   *Jie Zou, Yifan Chen, Evangelos Kanoulas*
+
+2. **Generating Clarifying Questions for Information Retrieval.** WWW, 2020. [paper](http://hamedz.ir/assets/pub/zamani-www2020.pdf)
+   
+   *Hamed Zamani, Susan T. Dumais, Nick Craswell, Paul N. Bennett, and Gord Lueck*
+
+6. **PathQG: Neural Question Generation from Facts** EMNLP, 2020. [paper](http://www.sdspeople.fudan.edu.cn/zywei/paper/2020/wangsy-emnlp-2020.pdf) [code](https://github.com/WangsyGit/PathQG)
+   
+   *Siyuan Wang, Zhongyu Wei, Zhihao Fan, Zengfeng Huang, Weijian Sun, Qi Zhang, Xuanjing Huang*
+
+12. **Inquisitive Question Generation for High Level Text Comprehension.** EMNLP, 2020. [paper](https://arxiv.org/pdf/2010.01657.pdf) [dataset](https://github.com/wjko2/INQUISITIVE)
+    
+    *Wei-Jen Ko, Te-Yuan Chen, Yiyan Huang, Greg Durrett, Junyi Jessy Li*
+
+9. **End-to-End Synthetic Data Generation for Domain Adaptation of Question Answering Systems.** EMNLP, 2020. [paper](https://arxiv.org/pdf/2010.06028.pdf)
+   
+   *Siamak Shakeri, Cicero Nogueira dos Santos, Henry Zhu, Patrick Ng, Feng Nan, Zhiguo Wang, Ramesh Nallapati, Bing Xiang*
+
+9. **Tell Me How to Ask Again: Question Data Augmentation with Controllable Rewriting in Continuous Space.** EMNLP, 2020. [paper](https://arxiv.org/pdf/2010.01475.pdf)
+   
+   *Dayiheng Liu, Yeyun Gong, Jie Fu, Yu Yan, Jiusheng Chen, Jiancheng Lv, Nan Duan, Ming Zhou*
+
+9. **Training Question Answering Models From Synthetic Data.** EMNLP, 2020. [paper](https://arxiv.org/pdf/2002.09599.pdf)
+   
+   *Raul Puri, Ryan Spring, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro*
 
 14. **QURIOUS: Question Generation Pretraining for Text Generation.** arXiv, 2020. [paper](https://arxiv.org/pdf/2004.11026.pdf)
     
@@ -90,6 +122,46 @@ Please follow [this link](./README.md) to view papers by topics.
 15. **Stay Hungry, Stay Focused: Generating Informative and Specific Questions in Information-Seeking Conversations.** arXiv, 2020. [paper](https://arxiv.org/pdf/2004.14530.pdf)
     
     *Peng Qi, Yuhao Zhang, Christopher D. Manning*
+
+16.  **Toward Subgraph Guided Knowledge Graph Question Generation with Graph Neural Networks.** arXiv, 2020. [paper](https://arxiv.org/pdf/2004.06015.pdf)
+
+      *Yu Chen, Lingfei Wu, Mohammed J. Zaki*
+
+11.  **Generating Semantically Valid Adversarial Questions for TableQA.** arXiv, 2020. [paper](https://arxiv.org/pdf/2005.12696.pdf)
+
+      *Yi Zhu, Menglin Xia, Yiwei Zhou*
+
+3. **CopyBERT: A Unified Approach to Question Generation with Self-Attention.** ACL Workshop, 2020. [paper](https://www.aclweb.org/anthology/2020.nlp4convai-1.3.pdf) [code](https://github.com/StalVars/CopyBERT)
+
+   *Stalin Varanasi, Saadullah Amin, Guenter Neumann*
+
+5. **UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training.** arXiv, 2020. [paper](https://arxiv.org/pdf/2002.12804.pdf) [code](https://github.com/microsoft/unilm/tree/master/unilm)
+   
+   *Hangbo Bao, Li Dong, Furu Wei, Wenhui Wang, Nan Yang, Xiaodong Liu, Yu Wang, Songhao Piao, Jianfeng Gao, Ming Zhou, Hsiao-Wuen Hon*
+
+12. **Stronger Transformers for Neural Multi-Hop Question Generation.** ArXiv, 2020. [paper](https://arxiv.org/pdf/2010.11374.pdf)
+    
+    *Devendra Singh Sachan, Lingfei Wu, Mrinmaya Sachan, William Hamilton*
+
+12. **Mathematical Word Problem Generation from Commonsense Knowledge Graph and Equations.** ArXiv, 2020. [paper](https://arxiv.org/pdf/2010.06196.pdf)
+    
+    *Tianqiao Liu, Qian Fang, Wenbiao Ding, Zhongqin Wu, Zitao Liu*
+
+12. **Reinforced Multi-task Approach for Multi-hop Question Generation.** COLING, 2020. [paper](https://arxiv.org/pdf/2004.02143.pdf)
+    
+    *Deepak Gupta, Hardik Chauhan, Akella Ravi Tej, Asif Ekbal, Pushpak Bhattacharyya*
+
+12. **Exploring Question-Specific Rewards for Generating Deep Questions.** COLING, 2020. [paper](https://arxiv.org/pdf/2011.01102.pdf) [codes](https://github.com/YuxiXie/RL-for-Question-Generation)
+    
+    *Yuxi Xie, Liangming Pan, Dongzhe Wang, Min-Yen Kan, Yansong Feng*
+
+12. **Ask to Learn: A Study on Curiosity-driven Question Generation.** COLING, 2020. [paper](https://arxiv.org/pdf/1911.03350.pdf) [codes](https://github.com/YuxiXie/RL-for-Question-Generation)
+    
+    *Thomas Scialom, Jacopo Staiano*
+
+12. **Knowledge-enriched, Type-constrained and Grammar-guided Question Generation over Knowledge Bases.** COLING, 2020. [paper](https://arxiv.org/pdf/2010.03157.pdf)
+    
+    *Sheng Bi, Xiya Cheng, Yuan-Fang Li, Yongzhen Wang, Guilin Qi*
 
 ## [2019](#2019)
 
@@ -108,6 +180,10 @@ Please follow [this link](./README.md) to view papers by topics.
 2. **Natural Question Generation with Reinforcement Learning Based Graph-to-Sequence Model** NeurIPS Workshop, 2019. [paper](https://arxiv.org/pdf/1910.08832.pdf)
    
    *Yu Chen, Lingfei Wu, Mohammed J. Zaki*
+
+2. **A Recurrent BERT-based Model for Question Generation.** MRQA Workshop, 2019. [paper](https://www.aclweb.org/anthology/D19-5821.pdf)
+
+   *Ying-Hong Chan, Yao-Chung Fan*
 
 3. **Putting the Horse Before the Cart:A Generator-Evaluator Framework for Question Generation from Text** CoNLL, 2019. [paper](https://arxiv.org/pdf/1808.04961.pdf)
    
@@ -156,6 +232,10 @@ Please follow [this link](./README.md) to view papers by topics.
 1. **Generating Question-Answer Hierarchies.** ACL, 2019. [paper](https://arxiv.org/pdf/1906.02622.pdf) [code](http://squash.cs.umass.edu/)
    
    *Kalpesh Krishna and Mohit Iyyer.*
+
+7. **Unsupervised Question Answering by Cloze Translation** ACL, 2019. [paper](https://www.aclweb.org/anthology/P19-1484.pdf)
+   
+   *Patrick Lewis, Ludovic Denoyer, Sebastian Riedel*
 
 2. **Unified Language Model Pre-training for Natural Language Understanding and Generation.** NeurIPS, 2019. [paper](https://arxiv.org/pdf/1905.03197.pdf) [code](https://github.com/microsoft/unilm)
    
@@ -237,6 +317,10 @@ Please follow [this link](./README.md) to view papers by topics.
    
    *Chris Alberti, Daniel Andor, Emily Pitler, Jacob Devlin, Michael Collins*
 
+2. **Asking Clarifying Questions in Open-Domain Information-Seeking Conversations.** SIGIR, 2019. [paper](https://dl.acm.org/doi/pdf/10.1145/3331184.3331265) [dataset](https://github.com/aliannejadi/qulac)
+   
+   *Mohammad Aliannejadi, Hamed Zamani, Fabio Crestani, W. Bruce Croft*
+
 7. **Generating Questions for Knowledge Bases via Incorporating Diversified Contexts and Answer-Aware Loss.** EMNLP, 2019. [paper](https://www.aclweb.org/anthology/D19-1247.pdf)
    
    *Cao Liu, Kang Liu, Shizhu He, Zaiqing Nie, Jun Zhao*
@@ -307,6 +391,10 @@ Please follow [this link](./README.md) to view papers by topics.
 2. **Leveraging Context Information for Natural Question Generation** ACL, 2018. [paper](https://www.aclweb.org/anthology/N18-2090) [code](https://github.com/freesunshine0316/MPQG)
    
    *Linfeng Song, Zhiguo Wang, Wael Hamza, Yue Zhang, Daniel Gildea*
+
+2. **Learning to Ask Good Questions: Ranking Clarification Questions using Neural Expected Value of Perfect Information.** ACL, 2018. [paper](https://arxiv.org/pdf/1805.04655.pdf) [code](https://github.com/raosudha89/ranking_clarification_questions)
+   
+   *Sudha Rao, Hal Daumé III*
 
 3. **Paragraph-level Neural Question Generation with Maxout Pointer and Gated Self-attention Networks.** EMNLP, 2018. [paper](https://www.aclweb.org/anthology/D18-1424.pdf)
    
